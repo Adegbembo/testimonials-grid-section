@@ -16,6 +16,10 @@ body {
     background: hsl(0, 0%, 81%);
 }
 
+h1 {
+    visibility: hidden;
+}
+
 #testimonials {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
