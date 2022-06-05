@@ -24,10 +24,9 @@ h1 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 1.5rem;
-    margin: 3em auto;
+    margin: 5em auto;
     max-width: 580px;
-    padding: 3em;
-    
+    padding: 3em;  
 }
 
 .testimonial-container {
@@ -111,7 +110,7 @@ h1 {
         grid-template-columns: repeat(4, 1fr);
         gap: 1.5rem;
         margin: 0 auto;
-        max-width: 1080px;
+        max-width: 980px;
         grid-template-areas: 
         'one one two five'
         'three four four five'   
