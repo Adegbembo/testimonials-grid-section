@@ -11,8 +11,8 @@ body {
     justify-items: center;
     align-items: center;
     font-family: 'Barlow Semi Condensed';
-    font-size: 13px;
-    line-height: 1.4;
+    font-size: 10px;
+    line-height: 1.3;
     background: hsl(0, 0%, 81%);
 }
 
@@ -24,12 +24,14 @@ h1 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 1.5rem;
-    padding: 0.8em;
-    margin: 2em auto;
+    margin: 3em auto;
+    max-width: 680px;
+    padding: 3em;
+    
 }
 
 .testimonial-container {
-    padding: 1.5em;
+    padding: 2em;
     padding-bottom: 3em;
     border-radius: 0.5em;
     border: none;
@@ -80,7 +82,7 @@ h1 {
 }
 
 .user-review p:nth-child(2) {
-    color: hsla(0, 0%, 100%, 0.70);
+    color: rgba(255, 255, 255, 0.70);
     margin-top: 1.5em;   
 }
 
@@ -103,11 +105,13 @@ h1 {
 }
 
 
-@media(min-width: 910px) {
+@media(min-width: 980px) {
     #testimonials {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 1.5rem;
+        margin: 0 auto;
+        max-width: 1080px;
         grid-template-areas: 
         'one one two five'
         'three four four five'   
