@@ -26,8 +26,7 @@ h1 {
     gap: 1.5rem;
     margin: 5em auto;
     max-width: 580px;
-    padding: 3em;
-    margin: 10%;
+    padding: 3em; 
 }
 
 .testimonial-container {
