@@ -26,9 +26,12 @@ h1 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 1.5rem;
-    margin: 10%;
     max-width: 580px;
     padding: 3em; 
+}
+
+main {
+    margin:10%;
 }
 
 .testimonial-container {
