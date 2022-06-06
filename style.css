@@ -13,25 +13,21 @@ body {
     font-family: 'Barlow Semi Condensed';
     font-size: 10px;
     line-height: 1.3;
-    max-width: 90%;
-    margin: 0 auto;
-    background: hsl(0, 0%, 81%);
+    background: hsl(210, 46%, 95%);
+    margin: 8%;
 }
 
 h1 {
     visibility: hidden;
 }
 
+
 #testimonials {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 1.5rem;
+    gap: 1.2rem;
+    margin: 0 auto;
     max-width: 580px;
-    padding: 3em; 
-}
-
-main {
-    margin:10%;
 }
 
 .testimonial-container {
@@ -101,6 +97,7 @@ main {
 .attribution {
     font-size: 11px;
     text-align: center;
+    margin-bottom: 3em;
 }
 
 .attribution a { 
@@ -115,7 +112,7 @@ main {
         grid-template-columns: repeat(4, 1fr);
         gap: 1.5rem;
         margin: 0 auto;
-        max-width: 980px;
+        max-width: 900px;
         grid-template-areas: 
         'one one two five'
         'three four four five'   
